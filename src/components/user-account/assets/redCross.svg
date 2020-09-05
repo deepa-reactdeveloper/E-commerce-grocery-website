@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24.733" height="24.733" viewBox="0 0 24.733 24.733">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff4248;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Group_635" data-name="Group 635" transform="translate(-11828.376 -5538.333)">
+    <circle id="Ellipse_241" data-name="Ellipse 241" class="cls-1" cx="12.366" cy="12.366" r="12.366" transform="translate(11828.376 5538.333)"/>
+    <g id="Group_634" data-name="Group 634">
+      <rect id="Rectangle_182" data-name="Rectangle 182" class="cls-2" width="2.625" height="13.502" rx="1.313" transform="translate(11835.123 5547.629) rotate(-46.634)"/>
+      <rect id="Rectangle_183" data-name="Rectangle 183" class="cls-2" width="2.625" height="13.502" rx="1.313" transform="translate(11844.613 5545.5) rotate(43.366)"/>
+    </g>
+  </g>
+</svg>

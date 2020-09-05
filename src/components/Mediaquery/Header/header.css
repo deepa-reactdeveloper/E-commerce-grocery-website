@@ -1,0 +1,81 @@
+@media only screen and (max-width: 576px) {
+    .header-topWrap {
+      display: none !important;
+    }
+    .headerfirst-card {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        padding-top: 2rem !important;
+        padding-bottom: 8rem !important;
+        top: 0px !important;
+        position: fixed !important;
+        border-radius: 0px !important;
+        z-index: 1000;
+    }
+    .secondCardWrapper{
+        display:none !important;
+    }
+    .flex-nav {
+        padding-left: 15px !important;
+    }
+    .grid-nav {
+        margin-right: 1rem !important;
+    }
+    .cart-margin{
+        margin-right: 1rem !important;
+    }
+    .grid-nav-headerLink {
+        width: 57% !important;
+        height: 87% !important;
+    }
+    .cartImg {
+        width: 60% !important;
+        height: 83% !important;
+    }
+    .headerSearch {
+        position: absolute;
+        top: 65px !important;
+        width: 97% !important;
+        left: 7px !important;
+        padding: 2px;
+    }
+    .searchBox {
+        
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.175) !important;
+        border: 0px solid #ccc !important;
+        border-radius: 0px !important;
+        padding: 0px 45px !important;
+        height: 37px !important;
+    }
+    .grid-nav-header {
+        font-size: 9px;
+        margin-top: 0.2rem;
+        color: black;
+        font-weight: 400;
+    }
+
+    .searchBoxContainer{
+        position: relative;
+    }
+    .headerSearchIconBtn{
+        position: absolute;
+    right: 14px;
+    bottom: 8px;
+    }
+}  
+
+@media only screen and (max-width: 676px) {
+.gridViewProdBanner{
+    display: none;
+}
+.grid-nav-header{
+   display:none;
+}
+.categoryWrapper {
+    display: none !important;
+}
+
+.mobRes-LogoAlign{
+    justify-content: flex-end !important;
+}
+}

@@ -1,0 +1,152 @@
+@media only screen and (max-width: 1040px) {
+  .ProductViewComponentWrap {
+    padding: 0rem 6rem !important;
+  }
+  .mobRes-TabImgSize {
+    width: 70px !important;
+  }
+  .padResproductDetailcard {
+    height: 310px !important;
+  }
+  .mobResProductName {
+    font-size: 22px !important;
+  }
+  .prod-plus-minus-btn-wraper {
+    width: 34% !important;
+  }
+  /* .padResproductCartBtn{
+    padding: 6px 32px !important;
+    
+} */
+}
+
+@media only screen and (max-width: 676px) {
+  .productViewWrap {
+    margin-top: 10rem !important;
+  }
+
+  .ProductViewComponentWrap {
+    padding: 5rem 1rem !important;
+  }
+
+  .flexcolumn {
+    flex-direction: row !important ;
+  }
+  .mobRes-prodDetailWishList {
+    margin-top: 0px !important;
+  }
+  .mobRes-ProductDetail {
+    margin-top: 2rem !important;
+  }
+  .mobResProductName {
+    font-size: 22px !important;
+  }
+  .mobResShow {
+    display: block !important;
+  }
+
+  .mobRes-TabImgSize {
+    width: 50px !important;
+  }
+  .mobResHide {
+    display: none !important;
+  }
+  .mobResCustReviewHeading {
+    padding: 3rem 0rem !important;
+    justify-content: center;
+  }
+  .mobResCustReviewBtn {
+    padding: 8px 12px !important;
+    font-size: 9px !important;
+  }
+  .custUpdate {
+    right: 2rem !important;
+}
+  .mobResratingOutOfStyle {
+    font-size: 10px !important;
+  }
+  .mobResCustReviewPadd {
+    padding: 0px 6px;
+  }
+  .customerUpdate {
+    right: 20px !important;
+  }
+  .custwrap {
+    padding: 2rem 1rem !important;
+  }
+  .avatar {
+    width: 34px !important;
+    height: 34px !important;
+  }
+  .mobResNoPaddLeftright{
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+  }
+  .verifiedCust{
+    width: 52% !important;
+  }
+  .imageWrapper {
+    padding: 0rem 0rem !important;
+    display: inline-block;
+  }
+  .buttonFaqWrap {
+    padding: 2rem !important;
+  }
+  .buttonFaq {
+    padding: 1rem 1rem !important;
+    font-size: 12px !important;
+  }
+  .prod-plus-minus-btn-wraper {
+    width: 8% !important;
+  }
+  .mobResProductName {
+    font-size: 17px !important;
+}
+.productratingTxt {
+    font-size: 12px !important;
+}
+.mobRescustReviewBtnImg{
+    width: 12px !important;
+}
+.custReview {
+ font-size: 1.1em !important;
+}
+.customerName {
+    display: none !important;
+}
+.customerUpdate {
+    display: none !important;
+}
+.headDesBox {
+    width: 52px !important;
+    height: 25px !important;
+    margin-right: 30vw !important;
+
+}
+
+.headImgWrap {
+    width: 31px !important;
+    left: 10px !important;
+}
+.groceryProd {
+    padding-left: 55px !important;
+}
+}
+
+@media only screen and (max-width: 476px) {
+  .imageDimension1 {
+    width: 40% !important;
+    height: 10em !important;
+    padding: 3px;
+  }
+  .imageDimension2 {
+    width: 20% !important;
+    height: 7em !important;
+    padding: 3px;
+  }
+  .imageDimension3 {
+    width: 40% !important;
+    padding: 3px;
+    height: 8em !important;
+  }
+}

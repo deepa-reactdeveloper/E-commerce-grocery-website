@@ -1,0 +1,88 @@
+.MuiFormGroup-row {
+  flex-direction: column !important;
+}
+
+.PrivateSwitchBase-root-17 {
+  padding: 12px !important;
+}
+
+.MuiTypography-body1 {
+  font-size: 15px;
+  font-family: "Poppins" !important;
+  font-weight: 400;
+  line-height: 1 !important;
+  letter-spacing: 0.00938em;
+}
+
+.MuiSvgIcon-root {
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  font-size: 2rem !important;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  flex-shrink: 0;
+  user-select: none;
+}
+.MuiFormControlLabel-root {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  margin-bottom: 0px !important;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* ProductCoupoun Scroll */
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #80C480 !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #E0E0E0;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+#overflowSlide {
+  background: #ffffff;
+  color: black;
+  padding: 15px;
+  width: 100%;
+  height: 420px;
+  overflow: scroll;
+  border: 0px solid #ccc;
+}
+/* scroll end */
+
+/* search Component */
+ 
+.MuiOutlinedInput-input {
+    padding: 12.5px 14px !important;
+}
+
+.MuiInputLabel-outlined {
+    z-index: 1;
+    transform: translate(14px, 15px) scale(1);
+    pointer-events: none;
+}
+.PrivateNotchedOutline-legendLabelled-62 > span {
+    display: none !important;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+/* search Component Ends*/

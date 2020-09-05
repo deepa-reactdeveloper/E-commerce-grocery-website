@@ -1,0 +1,9 @@
+@media only screen and (max-width: 676px) {
+.mobResSliderImg{
+    display:flex !important;
+  }
+
+.mobResCustomerImg{
+    display: none !important;
+}  
+}

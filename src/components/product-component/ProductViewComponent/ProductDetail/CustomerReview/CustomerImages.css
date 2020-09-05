@@ -1,0 +1,117 @@
+.imageGalleryDisplay {
+  display: flex;
+}
+.paddBtm {
+  padding-bottom: 10px;
+}
+.imageWrapper {
+  padding: 3rem 1rem;
+  display: inline-block;
+}
+.imageDimension1 {
+  width: 45%;
+  height: 13em;
+  padding: 3px;
+}
+.imageDimension2 {
+  width: 20%;
+  height: 10em;
+  padding: 3px;
+}
+.imageDimension3 {
+  width: 35%;
+  padding: 3px;
+  height: 11em;
+}
+
+.customerName {
+  font-size: 16px;
+  color: #616161;
+  font-weight: 600;
+}
+.customerUpdate {
+  position: absolute;
+  right: 0;
+  font-size: 12px;
+  color: #757575;
+  font-weight: 300;
+  line-height: 6vh;
+}
+/* Avtar */
+
+.avatar {
+  vertical-align: middle;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.paddTop {
+  padding-top: 30px;
+}
+.avtardiv {
+  display: flex;
+  justify-content: center;
+}
+
+/* custWrap */
+
+.custwrap {
+  padding: 3rem 1rem;
+}
+.paddBtm {
+  padding-bottom: 1rem;
+}
+.imageGalleryDisplay {
+  display: flex;
+}
+.custName {
+  font-size: 1.6em;
+  color: #757575;
+  font-weight: 600;
+}
+.custUpdate {
+  position: absolute;
+  right: 5rem;
+  font-size: 1em;
+  color: #757575;
+  font-weight: 300;
+}
+.custReview {
+  font-size: 1.4em;
+  width: 100%;
+  text-align: justify;
+  color: #424242;
+  font-weight: 500;
+}
+.verifiedCust {
+  font-size: 1.4em;
+  width: 45%;
+  text-align: justify;
+  color: #66bb6a;
+  font-weight: 800;
+}
+.userReview {
+  font-size: 1em;
+  color: #757575;
+  font-weight: 300;
+}
+.userreview {
+  width: 4em;
+  border-right: 1px solid #bdbdbd;
+  padding-left: 11px;
+}
+
+.usercomment {
+  width: 7em;
+  border-right: 1px solid #bdbdbd;
+  padding-left: 11px;
+}
+
+.userreport {
+  padding-left: 11px;
+}
+
+.mobResSliderImg{
+  display:none;
+}

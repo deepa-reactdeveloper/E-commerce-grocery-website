@@ -1,0 +1,151 @@
+
+@mixin triangle($size, $color, $direction) {
+    height: 0;
+    width: 0;
+  
+    $width: nth($size, 1);
+    $height: nth($size, length($size));
+  
+    $foreground-color: nth($color, 1);
+    $background-color: transparent !default;
+    @if (length($color) == 2) {
+      $background-color: nth($color, 2);
+    }
+  
+    @if ($direction == up) or
+      ($direction == down) or
+      ($direction == right) or
+      ($direction == left)
+    {
+      $width: $width / 2;
+  
+      @if $direction == up {
+        border-left: $width solid $background-color;
+        border-right: $width solid $background-color;
+        border-bottom: $height solid $foreground-color;
+      } @else if $direction == right {
+        border-top: $width solid $background-color;
+        border-bottom: $width solid $background-color;
+        border-left: $height solid $foreground-color;
+      } @else if $direction == down {
+        border-left: $width solid $background-color;
+        border-right: $width solid $background-color;
+        border-top: $height solid $foreground-color;
+      } @else if $direction == left {
+        border-top: $width solid $background-color;
+        border-bottom: $width solid $background-color;
+        border-right: $height solid $foreground-color;
+      }
+    } @else if ($direction == up-right) or ($direction == up-left) {
+      border-top: $height solid $foreground-color;
+  
+      @if $direction == up-right {
+        border-left: $width solid $background-color;
+      } @else if $direction == up-left {
+        border-right: $width solid $background-color;
+      }
+    } @else if ($direction == down-right) or ($direction == down-left) {
+      border-bottom: $height solid $foreground-color;
+  
+      @if $direction == down-right {
+        border-left: $width solid $background-color;
+      } @else if $direction == down-left {
+        border-right: $width solid $background-color;
+      }
+    } @else if ($direction == inset-up) {
+      border-width: $height $width;
+      border-style: solid;
+      border-color: $background-color $background-color $foreground-color;
+    } @else if ($direction == inset-down) {
+      border-width: $height $width;
+      border-style: solid;
+      border-color: $foreground-color $background-color $background-color;
+    } @else if ($direction == inset-right) {
+      border-width: $width $height;
+      border-style: solid;
+      border-color: $background-color
+        $background-color
+        $background-color
+        $foreground-color;
+    } @else if ($direction == inset-left) {
+      border-width: $width $height;
+      border-style: solid;
+      border-color: $background-color
+        $foreground-color
+        $background-color
+        $background-color;
+    }
+  }
+  
+  // Base
+  
+  
+  
+  
+  
+  
+  // Ribbon
+  
+  [class^="ribbon-"] {
+    position: relative;
+    margin-bottom: 80px;
+    &:before,
+    &:after {
+      content: "";
+      position: absolute;
+    }
+  }
+  
+  .box {
+    /* width: 70px; */
+    height: 12px;
+    margin-left: 23px;
+    background: #fff;
+    /* border-radius: 3px; */
+    margin-top: 11px;
+}
+  // Ribbon-3
+  .ribbon-3 {
+    width: 130px;
+    height: 24px;
+    /* margin-left: -23px; */
+    /* margin-right: 0px;*/
+    background: #66BB6A;
+    &:before {
+      @include triangle(10px, darken(#efb23b, 15%), up-right);
+      height: 0;
+      width: 0;
+      border-top: 10px solid #43A047;
+      border-left: 18px solid transparent;
+      bottom: -10px;
+      left: 0;
+    }
+    &:after{
+      
+       height: 0;
+      width: 0;
+      bottom: 0px;
+      border-top: -2px solid transparent;
+      border-bottom: 24px solid transparent;
+      border-left: 16px solid #66BB6A;
+      right: -16px;
+  
+    }
+  }
+  
+  
+  .ribbon-PosAbs {
+    position: absolute;
+    /* top: 24px; */
+    /* right: 395px; */
+    top: 24px;
+    left: -26px;
+}
+.ribbon-txt{
+  color: white;
+  letter-spacing: 1px;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 17px;
+}

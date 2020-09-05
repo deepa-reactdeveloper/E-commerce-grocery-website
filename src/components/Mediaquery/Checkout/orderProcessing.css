@@ -1,0 +1,54 @@
+.orderProcessingWrap {
+  margin-top: 15rem !important;
+}
+
+@media only screen and (max-width: 1040px) {
+  .cartSuggestion {
+    padding: 1rem 3.5rem !important;
+  }
+  .PaymentPadd {
+    padding: 30px 44px  !important;
+  }
+  .padResProdCheckPadd{
+    padding: 11px 31px !important;
+  }
+}
+
+@media only screen and (max-width: 730px) {
+  .orderProcessingWrap {
+    margin-top: 9rem !important;
+  }
+  .cartSuggestion {
+    padding: 1rem 1.5rem !important;
+  }
+}
+ @media only screen and (max-width: 675px) {
+ .mobRespaymentCheckout{
+   font-size: 16px !important;
+ }
+ .Progress-main {
+  
+  width: 180px !important;
+}
+ .mobResProdCheckPadd{
+   padding-top: 10px !important;
+   padding-bottom: 10px !important;
+  
+ }
+ .PaymentPadd {
+  padding: 5px 2px !important;
+}
+
+.cart-card {
+  margin: 1rem 0rem !important;
+}
+.mobResNoBorder{
+  border: 0 !important;
+}
+.Cartdropdown-content {
+  left: -60px !important;
+}
+.dropdown-content {
+  right: -8px !important;
+}
+ }

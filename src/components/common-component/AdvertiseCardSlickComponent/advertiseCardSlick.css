@@ -1,0 +1,83 @@
+
+.mobResadverSlick{
+  display: none;
+}
+.advertiseSlickCard:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+.variable-width .slick-slide p {
+  background: blue;
+  height: 100px;
+  color: #fff;
+  margin: 5px;
+  line-height: 100px;
+  text-align: center;
+}
+.center .slick-center {
+  color: #e67e22;
+  opacity: 1;
+  transform: scale(1.08);
+}
+.center {
+  opacity: 0.8;
+  transition: all 300ms ease;
+}
+.content {
+  padding: 20px;
+  margin: auto;
+  width: 90%;
+}
+.slick-slide .image {
+  padding: 10px;
+}
+.slick-slide img {
+  /* border: 5px solid #fff; */
+  display: block;
+  margin: auto;
+}
+.slick-slide img.slick-loading {
+  border: 0;
+}
+.slick-slider {
+  margin: 30px auto 50px;
+}
+.slick-dots {
+  margin-left: 0;
+}
+.slick-thumb {
+  bottom: -45px;
+}
+@media (max-width: 768px) {
+  .center {
+    margin-left: -40px;
+    margin-right: -40px;
+  }
+  .center .slick-center {
+    color: #e67e22;
+    opacity: 1;
+    transform: scale(1);
+  }
+  .center {
+    opacity: 0.8;
+    transform: scale(0.95);
+    transition: all 300ms ease;
+  }
+}
+.slick-arrow {
+  background-color: grey;
+  /* color: black; */
+}
+.slick-arrow:hover {
+  background-color: grey;
+}
+
+@media only screen and (max-width: 676px) {
+  .mobResadverSlick{
+    display: block !important;
+  }
+  .mobres_marginBtm{
+    margin-bottom: 4rem !important;
+  }
+}

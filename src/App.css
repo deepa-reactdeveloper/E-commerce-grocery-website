@@ -1,0 +1,37 @@
+body{
+    font-family: 'Poppins';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+   /* overflow: hidden; */
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+a:focus, a:hover {
+    color: #66BB6A !important;
+    text-decoration: none;
+}
+
+.container-marginTop{
+    margin-top: 20rem;
+}
+
+#root{
+    overflow: hidden;
+}
+
+.mobReshomeAdvert{
+    display:none;
+}

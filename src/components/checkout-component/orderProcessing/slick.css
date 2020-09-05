@@ -1,0 +1,31 @@
+.slick-prev {
+    display: block;
+    /* color: black !important;
+    background: lightgrey !important; */
+}
+
+.slick-next{
+    display: block;
+    /* color: black !important;
+    background: lightgrey !important; */
+}
+
+.slick-dots{
+    display: none !important;
+}
+
+.slick-list{
+    background: white !important;
+
+}
+
+.slick-prev:before {
+    content: '' !important;
+}
+.slick-next:before {
+    content: '' !important;
+}
+
+.slick-next:before {
+    margin-left: 4rem;
+}

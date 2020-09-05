@@ -1,0 +1,13 @@
+.modal-content{
+    border-radius: 20px;
+}
+
+.placeholderCenter input[type="text"]::placeholder {  
+    text-align: center; 
+} 
+
+@media(max-width:414px){
+    .modalContainer4Mobile{
+    padding: 2rem !important;
+}
+}

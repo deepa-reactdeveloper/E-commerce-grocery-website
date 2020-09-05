@@ -1,0 +1,135 @@
+.category-dispFlex {
+  display: flex;
+}
+.category-dispInline {
+  display: inline;
+}
+.categorycard {
+  border-color: #ffffff;
+  border-radius: 2px;
+  display: block;
+  border-radius: 4px;
+  position: relative;
+  padding: 1em;
+  box-shadow: 1px 2px 3px #ccc;
+  margin-bottom: 1em;
+}
+/* .categorycard{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  } */
+.categoryHeading {
+  color: #757575;
+  font-size: 2em;
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-color: #c1bbbb;
+  margin-bottom: 12px;
+}
+
+.listImg {
+  margin-left: auto;
+}
+/* .img-square-wrapper {
+    width: 64px;
+    height: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 0px;
+} */
+.img-square-wrapper {
+  width: 56px;
+  height: 44px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 9px;
+  padding-right: 0px;
+}
+.img-square {
+  width: 100%;
+  height: 100%;
+}
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  /* border: 1px solid lightgrey; */
+  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.13);
+}
+/* .categorycard-body{
+    width: 215px;
+    height: 50px;
+    
+  } */
+.categorycard-body {
+  width: 215px;
+  height: 46px;
+}
+.card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 0.5rem !important;
+}
+.categorycard-title {
+  color: #848484;
+  font-size: 1.4em;
+  padding-left: 16px;
+  padding-top: 8px;
+}
+.collage-viewPadd {
+  padding-left: 13px;
+  padding-right: 12px;
+}
+.collageimg-square-wrapper {
+  width: 100%;
+  height: 92px;
+}
+
+.collageimg-square {
+  width: 100%;
+  height: 100%;
+}
+.collagecard-title {
+  color: #848484;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  padding-top: 1px;
+  padding-bottom: 8px;
+}
+.collagecard-horizontal {
+  display: block;
+  flex: 1 1 auto;
+  padding:1px;
+  /* margin-bottom: 12px; */
+  border-radius: 6px;
+  /* margin-right: 6px; */
+  /* border: 1px solid lightgrey; */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.13);
+}
+.smallimg-square-wrapper {
+  /* width: 90px;
+  height: 92px; */
+}
+
+.smallimg-square {
+  width: 100%;
+  height: 100%;
+}
+
+.smallImgcard-title {
+  color: #848484;
+  font-size: 9px;
+  display: flex;
+  justify-content: center;
+  padding-top: 1px;
+  padding-bottom: 8px;
+}
+
+.advertisecard {
+  display: block;
+  position: relative;
+  margin-bottom: 2em;
+}

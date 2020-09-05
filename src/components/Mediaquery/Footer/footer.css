@@ -1,0 +1,140 @@
+@media only screen and (max-width: 1040px) {
+  .footerpara {
+    display: none !important;
+  }
+  .footerPart {
+    color: #212121 !important;
+  }
+  .footerNone {
+    display: none !important;
+  }
+  /* .footerContactUsContainer{
+        display: none !important;
+    } */
+  .footerSocialIConContainer {
+    display: none !important;
+  }
+  .footerContainer {
+    background: white !important;
+  }
+  .mobileRes {
+    background-color: #424242 !important;
+  }
+  .padResFooterRowWrap {
+    padding: 3rem 5rem 3rem 5rem !important;
+  }
+  .padResNoPadd {
+    padding: 0 !important;
+  }
+  .tabRes-SocialMedia {
+    display: flex !important;
+    justify-content: center;
+    margin: 1rem 1rem 0rem 6rem !important;
+  }
+  .tabResCopyright {
+    margin: 2rem 1rem 2rem 1rem !important;
+    position: absolute;
+    right: 25px;
+  }
+  .padResShow{
+    display: block !important;
+}
+}
+
+@media only screen and (max-width: 1040px) and (min-width: 676px) {
+  .footerPart {
+    margin: 1rem 1rem 0rem 0rem !important;
+  }
+  .footerParagraph {
+    padding-top: 2px !important;
+    /* font-size: 17px !important; */
+  }
+  .padResFooterRowWrap {
+    border-top: 10px solid #01964b !important;
+  }
+  .storeApp {
+    display: none !important;
+  }
+  .padResShow{
+      display: block !important;
+  }
+  .PadResstoreapp{
+    width: 40% !important;
+    display: flex;
+    justify-content: center;
+}
+}
+@media only screen and (max-width: 676px) {
+  .greenbeltlogo {
+    width: 200px !important;
+}
+  .padResFooterRowWrap {
+    padding: 3rem 3rem 3rem 3rem !important;
+  }
+  .storeApp {
+    display: flex !important;
+  }
+  .greenbeltlogoMob {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  .copyright {
+    display: flex;
+    justify-content: center;
+  }
+  .footerParagraph {
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    padding: 0 !important;
+  }
+
+  .mobfooterNone {
+    display: none !important;
+  }
+  .footerContainer {
+    background-color: #ffffff;
+    font-size: 15px;
+  }
+  .mobileRes {
+    display: flex !important;
+    background-color: #424242 !important;
+  }
+
+  .footerPart {
+    color: #bdbdbd !important;
+    margin: 1.5rem 0rem 0rem 0rem !important;
+}
+
+  .copyrightMobMargin {
+    display: flex !important;
+    margin: 2rem 0rem 2rem 0rem !important;
+  }
+
+  .mobileRes-SocialMedia {
+    display: flex !important;
+    justify-content: center;
+    padding: 12px 0px 1px 0px !important;
+  }
+  /* .tabRes-SocialMedia{
+      display: none !important;
+  } */
+  .tabResCopyright {
+    margin: 2rem 4rem 2rem 4rem !important;
+    position: relative !important;
+    /* right: 0 !important; */
+  }
+  .padResShow{
+    display: none !important;
+}
+.PadResstoreapp{
+    width: 0% !important;
+    display: flex;
+    justify-content: center;
+}
+.greenbeltlogoMobwidth{
+ 
+  width: 100px !important;
+}
+}

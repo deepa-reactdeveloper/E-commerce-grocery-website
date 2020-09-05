@@ -1,0 +1,132 @@
+.myAccount2:hover {
+  border-right: 2px solid #EB201E;
+  background: #f5f5f5;
+}
+
+.placeholderCenter,.myAccountContainer input[type="text"]::placeholder {  
+    text-align: center; 
+} 
+
+@media(min-width:768px){
+  .myAccountFormSelect{
+    text-indent: 124px;
+  }
+}
+
+@media (max-width: 414px) {
+  .myAccountContainer{
+    margin-top: 60px;
+  }
+  .passwordButtonContainer{
+    margin-right: 7px !important;
+  }
+  .myAccount1Container{
+    color: white !important;
+    background: #EB201E !important;
+  }
+.white{
+  background: white !important;
+}
+
+  .hide4mobile {
+    display: none !important;
+  }
+  .myAccountFormSelect{
+    text-indent: 145px;
+  }
+
+  .myAccountForm {
+    padding: 0px !important;
+    margin: 2rem 0rem;
+  }
+  .myAccountFormImg {
+    width: 150px !important;
+  }
+
+  .myProfileToggler {
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 1rem;
+    color: white;
+    background: #EB201E;
+  }
+
+  .myAddress4mobile {
+    padding-right: 0px !important;
+    margin-left: 0px !important;
+  }
+  .myAddress4mobilebutton {
+    right: -178px !important;
+    top: 22px !important;
+  }
+
+  .myAddressEditDeleteButton{
+      margin-left: 20px !important;
+  }
+
+  .addressModalSelect{
+      padding:0px !important;
+
+  }
+  .selectCity{
+      text-indent: 60px !important;
+  }
+  .selectLocality{
+      text-indent: 45px !important;
+  }
+.latitude{
+    left: 55px !important;
+}
+.getLocation{
+    text-indent: -55px !important;
+}
+
+.addressForm1{
+    margin-top: 0px !important;
+}
+.resetButton{
+    width: 60px !important;
+}
+.cancelButton{
+    width: 60px !important;
+}
+.goButton{
+    width: 100px !important;
+    font-size: 15px !important;
+    padding: .2rem !important;
+}
+
+.referButton{
+  width: 100%;
+  background-color: #EB201E;
+  color: white;
+  padding: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.dataContainer{
+  padding: 1rem !important;
+}
+
+.myProfile4Mobile{
+  margin-left: 2rem !important;
+  margin-right: 2rem !important;
+}
+
+
+.profileHeaderContainer4Mobile{
+  margin: 0rem !important;
+  padding: 0rem !important;
+  margin-bottom: 1rem !important;
+}
+
+}
+
+@media (min-width: 480px) {
+  .hide4Web {
+    display: none !important;
+  }
+}

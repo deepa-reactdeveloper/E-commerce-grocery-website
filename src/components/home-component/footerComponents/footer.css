@@ -1,0 +1,254 @@
+.footerContainer {
+  background-color: #424242;
+  font-size: 15px;
+}
+.footerProductsSpan {
+  color: #609561;
+  margin-bottom: 28px;
+  /* letter-spacing: 0.1rem; */
+  /* text-transform: uppercase; */
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 2.2rem;
+}
+.footerProductsLinkColor {
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 2rem;
+}
+.footerProducts {
+  display: flex;
+  flex-direction: column;
+}
+
+.greenbeltlogo {
+  width: 227px;
+}
+.greenbeltlogoImg {
+  width: 100%;
+}
+
+.footerParagraph {
+  color: #ffffff;
+ display: block;
+  width: 304px;
+  padding-top: 21px;
+  padding-right: 23px;
+  font-size: 13px;
+}
+.footer-displayflex {
+  display: flex;
+}
+
+.footerSocialIConContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15%;
+  width: 200px;
+  height: 29px;
+}
+
+.headerSearch {
+  position: absolute;
+  top: 50px;
+  /* width: 100%; */
+  padding: 2px;
+}
+
+.footer-displayInline {
+  display: inline-block;
+}
+
+.marProduct {
+  margin-top: 6rem;
+}
+.aligningstore {
+  margin-left: 15rem;
+}
+.storeAppSize {
+}
+.honeysyslogo {
+  width: 184px;
+}
+.honeysyslogoImg {
+  width: 100%;
+}
+.fa-angle-down {
+  font-size: 22px;
+  color: #4b6ed9;
+  transition: all 0.6s cubic-bezier(0.08, 1.09, 0.32, 1.275);
+  line-height: 50px;
+}
+/* search */
+body {
+  padding-top: 50px;
+}
+.dropdown.dropdown-lg .dropdown-menu {
+  margin-top: -1px;
+  padding: 6px 20px;
+}
+.input-group-btn .btn-group {
+  display: flex !important;
+}
+.btn-group .btn {
+  border-radius: 0;
+  margin-left: -1px;
+}
+.btn-group,
+.btn-group-vertical {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+.btn-group .btn:last-child {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.btn-group .form-horizontal .btn[type="submit"] {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.form-horizontal .form-group {
+  margin-left: 0;
+  margin-right: 0;
+}
+.form-group .form-control:last-child {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.floa {
+  float: left;
+}
+.dropdown {
+  position: relative;
+}
+.input-group .form-control {
+  position: relative;
+  z-index: 2;
+  float: left;
+  width: 100%;
+  margin-bottom: 0;
+}
+.input-group {
+  position: relative;
+  display: table;
+  border-collapse: separate;
+  margin-left: 0px !important;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #66bb6a;
+  border-color: #66bb6a;
+}
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px !important;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.footerFormwidth {
+  width: 297px !important;
+  height: 44px !important;
+}
+.form-control {
+  display: block;
+  height: 44px;
+
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.btn-group > .btn,
+.btn-group-vertical > .btn {
+  position: relative;
+  float: left;
+}
+@media screen and (min-width: 768px) {
+  #adv-search {
+    width: 500px;
+    margin: 0 auto;
+  }
+  .dropdown.dropdown-lg {
+    position: static !important;
+  }
+  .dropdown.dropdown-lg .dropdown-menu {
+    min-width: 76px;
+  }
+}
+
+/* search ends */
+@media (min-width: 768px) {
+  .footerContainer {
+    padding: 5rem 5rem 3rem 5rem !important;
+  }
+}
+.size {
+  width: 4%;
+
+  padding: 4px;
+}
+.sizePhoneInput {
+  display: inline;
+  width: 20%;
+}
+.footerSend {
+  background-color: #66bb6a !important;
+}
+.fa-angle-down {
+  font-size: 20px;
+  color: #757575;
+  transition: all 0.6s cubic-bezier(0.08, 1.09, 0.32, 1.275);
+  line-height: 50px;
+}
+
+.footerDroparrow {
+  position: absolute;
+  left: 42px;
+  top: 0px;
+}
+
+.input-group {
+  position: relative;
+  /* display: flex; */
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 70%;
+}
+
+.mobileRes-SocialMedia{
+  display: none;
+}
+
+.tabRes-SocialMedia{
+  display: none;
+}
+.padResShow{
+  display: none;
+}
+.PadResstoreapp{
+  width: 0%;
+  display: flex;
+  justify-content: center;
+}

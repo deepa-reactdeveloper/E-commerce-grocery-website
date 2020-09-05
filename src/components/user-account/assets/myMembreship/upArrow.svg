@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12.986" height="7.792" viewBox="0 0 12.986 7.792">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #01579b;
+      }
+    </style>
+  </defs>
+  <g id="Group_414" data-name="Group 414" transform="translate(12.986 7.085) rotate(180)">
+    <g id="Group_413" data-name="Group 413">
+      <g id="Group_411" data-name="Group 411" transform="translate(5.944 0.042)">
+        <rect id="Rectangle_114" data-name="Rectangle 114" class="cls-1" width="9.182" height="1.778" rx="0.338" transform="translate(-0.707 5.786) rotate(-45)"/>
+      </g>
+      <g id="Group_412" data-name="Group 412">
+        <rect id="Rectangle_115" data-name="Rectangle 115" class="cls-1" width="1.837" height="9.182" rx="0.364" transform="matrix(0.707, -0.707, 0.707, 0.707, 0, 0.592)"/>
+      </g>
+    </g>
+  </g>
+</svg>

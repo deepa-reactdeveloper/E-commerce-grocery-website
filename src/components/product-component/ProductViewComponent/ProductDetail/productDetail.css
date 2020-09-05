@@ -1,0 +1,99 @@
+/*  */
+.prod-btn-grp{
+    display: flex;
+    width: 100%;
+}
+
+.prod-plus-minus-btn-wraper {
+    display: flex;
+    margin-top: 2rem;
+    width: 38%;
+    /* border: 1px solid gray; */
+    height: 41px;
+    margin-right: 15rem;
+}
+.pm-txt {
+    width: 130px;
+    height: 34px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #757575;
+    font-size: 16px;
+}
+
+ .pm-btn{
+    width: 90px;
+    font-size: 25px;
+    color: #757575;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    height: 40px;
+}
+/*
+.pm-btn1{
+    width: 33.3%;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+} */
+
+/* .pm-btn:focus{
+    border: 0;
+    box-shadow: 0px 0px 0px 0px transparent;
+    outline: none;
+} */
+
+.quantityTitle {
+    font-size: 13px;
+    line-height: 37px;
+    margin-right: 18px;
+    color: #424242;
+    font-weight: 400;
+}
+
+.prodDetailDropAlign{
+    margin-left: 10px;
+    /* display: flex; */
+    margin-top: 5px;
+}
+
+.additionalrow {
+	flex-direction: row;
+}
+.row-reverse {
+	flex-direction: row-reverse;
+}
+.column {
+	flex-direction: column;
+}
+.column-reverse {
+	flex-direction: column-reverse;
+}
+
+/* Flex Container */
+.additionalcontainer {
+	/* max-width: 400px; */
+	margin: 0 auto;
+	display: flex;
+	border: 0px solid #ccc;
+}
+/* Flex Item */
+.additionalrowitem {
+	flex: 1;
+	margin: 1px;
+	padding-left:12px;
+	/* background: wheat; */
+	text-align: center;
+	font-size: 1.5em;
+	text-align:left;
+}
+
+
+@media only screen and (max-width: 676px){
+    .mobres_specificationtable{
+        margin:1rem !important;
+    }
+}

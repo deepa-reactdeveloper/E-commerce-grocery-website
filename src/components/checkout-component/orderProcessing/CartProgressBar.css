@@ -1,0 +1,77 @@
+.card-Carthorizontal {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-flex: 1;
+    flex: 1 1 auto;
+    padding: 3em 6em;
+  }
+  
+  .cart-card {
+    position: relative;
+    display: -ms-flexbox;
+    border-radius: 100px;
+    -ms-flex-direction: column;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 100px;
+    margin: 3rem 5rem;
+  }
+  
+  .cartprogressLength {
+    width: 100%;
+  }
+  
+  .progressdDispFlex {
+    display: -webkit-box;
+    display: flex;
+  }
+  
+  .Progress-main {
+    background-color: red;
+    height: 0.2em;
+    margin: 1em 2em;
+    width: 210px;
+  }
+  .ProgressBarTxt{
+    margin: 0.5em 2em;
+    color: #757575;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .Progress-main::-moz-progress-bar {
+    background: #04a257;
+  }
+  
+  .Progress-main::-webkit-progress-bar {
+    background: #f2f2f2;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) inset;
+  }
+  
+  .Progress-main::-webkit-progress-value {
+    background: #04a257;
+  }
+  
+  .Progress-main::-ms-fill {
+    background: #04a257;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) inset;
+  }
+  
+  .Progress-bar {
+    margin-top: 0.95em;
+    background-color: #f2f2f2;
+    height: 0.3em;
+  }
+  
+  .Progress-value {
+    background-color: #04a257;
+    display: block;
+    height: 0.3em;
+  }
+  
+  .imageCart {
+    width: 30px;
+    height: 30px;
+  }
+  

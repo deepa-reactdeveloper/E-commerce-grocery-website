@@ -1,0 +1,24 @@
+.slick-prev {
+    display: block;
+    /* color: black !important;
+    background: black !important; */
+}
+
+.slick-next{
+    display: block;
+    /* color: black !important;
+    background: black !important; */
+}
+
+.slick-dots{
+    display: none !important;
+}
+.slick-prev:before {
+    content: '' !important;
+}
+.slick-next:before {
+    content: '' !important;
+}
+.slick-next:before {
+    margin-left: 4rem;
+}

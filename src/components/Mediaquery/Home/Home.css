@@ -1,0 +1,145 @@
+@media only screen and (max-width: 1040px) and (min-width:676px){
+.productImgWrap {
+  width: 100%;
+  height: 95px;
+  /* height: 100%; */
+  padding-left: 30px;
+  padding-right: 30px;
+}
+}
+@media only screen and (max-width: 676px) {
+
+  .mobResLogoWidth{
+    width: 150px;
+  }
+  .parallexbody{
+    display: none !important;
+  }
+  .mobResparallexbody{
+    display: block !important;
+  }
+  .groceryWrapper {
+   
+    margin-bottom: 0rem !important;
+  }
+  .advertisecard {
+    display: none;
+  }
+  .container-marginTop {
+    margin-top: 10rem;
+  }
+  .prodBannLink {
+    display: none;
+  }
+  .bannerline {
+    display: none;
+  }
+  .mobileViewSlider {
+    display: block !important;
+  }
+  #background {
+    display: none !important;
+  }
+  .grocery-dispFlex {
+    display: flex;
+    justify-content: center;
+  }
+  .groceryWrapper {
+    padding: 0 !important;
+  }
+
+  .productBorderRight {
+    border-right: 0.5px solid #bdbdbd !important;
+  }
+
+  .productBorderBtm {
+    border-bottom: 0.5px solid #bdbdbd !important;
+  }
+  .mobileViewHome-Padd {
+    padding: 0 !important;
+  }
+  .MobileViewHide-Home {
+    display: none !important;
+  }
+  .mobRes-CartWrap {
+    display: flex !important;
+  }
+  .mobRes-addToCart {
+    justify-content: flex-end !important;
+    width: 100%;
+  }
+  .mobproductList-price {
+    /* margin-left: 4px; */
+    margin-bottom: 10px;
+    /* margin-right: 106px; */
+    text-align: center;
+    margin-top: 0rem !important;
+    color: #66bb6a;
+    background-color: #ffffff;
+    border-radius: 17px;
+    transition: top 0.5s ease;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .mobRespm-btn {
+    width: 20px;
+    font-size: 19px;
+    color: #ffffff;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    height: 25px;
+    line-height: 2px;
+  }
+  .mobRespm-txt {
+    width: 25px;
+
+    height: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid #43BF60; */
+    font-size: 16px;
+    background: white;
+  }
+  .mobResGroceryAlign {
+    margin-bottom: 0 !important;
+  }
+
+  .mobResGroceryWrap {
+    border-bottom: 10px solid #66bb6a !important;
+  }
+  .mobResNoBorder {
+    border: 0 !important;
+  }
+  .mobResViewAllWrap {
+    margin-top: 4em !important;
+  }
+
+  .mobReshomeAdvert{
+    display:block !important;
+}
+  /* ------------------------------------ */
+  /* productPage */
+  .mobRes-productPageWrap {
+    margin-top: 0rem 2rem !important;
+  }
+  /* .productImgWrap {
+    height: 130px !important;
+  } */
+  .product-detail {
+    font-size: 1.4em !important;
+    font-weight: 600 !important;
+  }
+  .productlist-price-currency {
+    font-size: 12px !important;
+    font-weight: 800 !important;
+   
+}
+.productlist-price-number {
+  font-size: 18px !important;
+  font-weight: 700 !important;
+}
+  /* ------------------------------------- */
+}
